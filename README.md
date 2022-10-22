@@ -7,9 +7,9 @@ to a local bash process on your computer.
 
 You can get this Webterminal agent running either by:
 
-- Running the `bill` command (if installed via pip) with the `-aio` flag passed in, OR<br />
+- Install bertdotbill with `pip install bertdotbill` and running `bill -aio`, OR<br />
   Cloning the [bert.bill](https://github.com/berttejeda/bert.bill) project, installing all requirements, and 
-  running `python bertdotbill/app.py` from the commandline with the `-aio` flag passed in<br />
+  running `python bertdotbill/app.py -aio`<br />
   Doing so will launch a local websocket that forwards keystrokes to a bash process on your system
 - Running the pre-built docker image: `docker run -it --name webterminal --rm -p 10001:10001 berttejeda/bill-webterminal`
 - Running `docker-compose up -d` from this project
