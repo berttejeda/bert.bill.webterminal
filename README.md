@@ -18,7 +18,7 @@ You can get this Webterminal agent running either by:
 Either of the commands above will start the websocket and bash process on localhost:10001, 
 but you can change the port if you like.
 
-Feel free to adjust to your needs.
+You can then connect to the agent through the bert.bill web app.
 
 # Architecture
 
